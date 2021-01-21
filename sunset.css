@@ -1,0 +1,59 @@
+/* <div>
+    <div id="sand1">
+     </div>
+      <div id="sand2">
+     </div>
+      <div id="sun">
+     </div>
+    </div>
+    <style> */
+      body{
+        background: #191919;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div {
+        width: 150px;
+        height: 200px;
+        background: #F2AD43;
+        border-top-right-radius: 100px;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+      }
+      #sand1 {
+        position: absolute;
+        background: #E08027;
+        width: 90px;
+        height: 100px;
+        z-index: 3;
+        border-top-right-radius: 150px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 40px;
+        transform: translate(-0px,100px);
+      }
+      #sand2 {
+        position: absolute;
+        background: #824B20;
+        width: 100px;
+        height: 100px;
+        z-index: 4;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        transform: translate(50px,100px);
+      }
+      
+      #sun {
+        width: 60px;
+        height: 60px;
+        background: #FFF58F;
+        border-radius: 50%;
+        z-index: 2;
+        transform: translate(45px,90px);
+      }
+      
+      
+    /* </style> */
