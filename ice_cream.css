@@ -1,0 +1,34 @@
+/* Html
+ <div id="cream"></div>
+<div id="stick"></div>
+<style> */
+  body {
+    background: #293462;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #cream {
+    width: 100px;
+    height: 150px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background: #FFF1C1;
+    z-index: 2;
+    transform: translate(0,42px);
+  }
+  #stick {
+    z-index: 1;
+ 	width: 30px;
+    height: 40px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #FE5F55;
+    border-top: 20px solid #A64942;
+    transform: translate(0,32px);
+}
+  
+/* </style> */
