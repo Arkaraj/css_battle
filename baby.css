@@ -1,0 +1,53 @@
+/* Html
+<div id="main">
+<div class="h1"></div>
+  <div class="h2"></div>
+  <div class="e1"></div>
+  <div class="e2"></div>
+  <div class="lip"></div>
+</div>
+<style>
+*/
+  body {
+    background: #293462;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #main {
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background: #FE5F55;
+    clip-path: inset(0 round 106q 106q 53q 53q)
+  }
+  .h1,.h2,.e1,.e2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFF1C1;
+    transform: translate(20px,90px);
+  }
+  .h1,.h2 {
+	width: 100px;
+    height: 100px;
+    transform: translate(0px,-50px);
+  }
+  .h2 {
+    transform: translate(100px,-50px);
+  }
+  .e2 {
+    transform: translate(120px,90px);
+  }
+  .lip {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    border-radius: 40px;
+    background: #FFF1C1;
+    transform: translate(80px,170px);
+  }
