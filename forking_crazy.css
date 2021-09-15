@@ -1,0 +1,24 @@
+/* <body>
+<div></div>
+</body>
+
+<style> */
+    body {
+      background: #6592cf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: sans-serif;
+    }
+    div {
+      margin: 50 auto;
+      border-radius: 100px;
+      width: 20px;
+      height: 110px;
+      background: #6592cf;
+      box-shadow: 20px 0 0 0 #060f55, 40px 0 0 0 #6592cf, 60px 0 0 0 #060f55,
+        -20px 0 0 0 #060f55, -40px 0 0 0 #6592cf, -60px 0 0 0 #060f55,
+        0 150px 0 #060f55, 0 -60px 0 50px #6592cf, 0 30px 0 60px #060f55;
+    }
+  /* </style> */
