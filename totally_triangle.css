@@ -1,0 +1,17 @@
+/*
+    <div></div>
+  <style>*/
+    body {
+      background: #0b2429;
+      margin: 0;
+      min-height: 100vh;
+      font-family: sans-serif;
+    }
+    div {
+      width: 0;
+      height: 0;
+      border: 4.36em solid #f3ac3c;
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+    }
+  /*</style>*/
